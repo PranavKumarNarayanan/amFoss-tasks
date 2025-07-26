@@ -1,29 +1,8 @@
-# Dream Team Tasks
-
-## Table of Contents
-- [What is the Dream Team?](#what-is-the-dream-team)
-- [Submission Guidelines](#submission-guidelines)
-- [Task List](#task-list)
-- [Task 00: Linux](#task-00-linux)
-- [Task 01: CLI & Git](#task-01-cli--git)
-- [Task 02: The Open Source Conventions & Google Dorking](#task-02-the-open-source-conventions--google-dorking)
-- [Task 03: Automate the Boring Stuff!](#task-03-automate-the-boring-stuff)
-- [Task 04: Web Dev Basics](#task-04-web-dev-basics)
-- [Development Cycle](#development-cycle)
-- [Task 05: Not a SRS Doc](#task-05-not-a-srs-doc)
-- [Task 06: Wireframe the Skeleton](#task-06-wireframe-the-skeleton)
-- [Task 07: Figma Design Task](#task-07-figma-design-task)
-- [Task 08: Frontend Development](#task-08-frontend-development)
-- [Task 09: Backend Development](#task-09-backend-development)
-- [References & Acknowledgments](#references--acknowledgments)
-
-## What is the Dream Team?
-
-The Dream Team is a student-led club offering exclusive 3-year internship opportunities designed to help you build and refine your skills through real-world projects. Upon successful completion of the assigned tasks and approval from reviewers, you will become eligible for a three-year, industry-level internship. During this internship, you will collaborate with experienced developers and be mentored by university alumni, gaining hands-on experience in modern tech stacks and tools. This practical exposure will set you apart from your peers and provide a significant advantage when preparing for campus placements in your final year.
+# amFoss Nagercoil
 
 ## Submission Guidelines
 
-1. **Set up a private GitHub repository named `dreamteam-tasks`.**
+1. **Set up a private GitHub repository named `dreamteam-tasks`.
 
 2. **Create directories named `task-##`** (where `##` corresponds to the task number) to organize your work for each specific task.
 
@@ -38,11 +17,10 @@ The Dream Team is a student-led club offering exclusive 3-year internship opport
 | 02       | [The Open Source Conventions & Google Dorking](#task-02-the-open-source-conventions--google-dorking) |
 | 03       | [Automate the Boring Stuff!](#task-03-automate-the-boring-stuff) |
 | 04       | [Web Dev Basics](#task-04-web-dev-basics)             |
-| 05       | [Not a SRS Doc](#task-05-not-a-srs-doc)               |
-| 06       | [Wireframe the Skeleton](#task-06-wireframe-the-skeleton) |
-| 07       | [Figma Design Task](#task-07-figma-design-task)       |
-| 08       | [Frontend Development](#task-08-frontend-development) |
-| 09       | [Backend Development](#task-09-backend-development)   |
+| 05       | [WIREFRAME THE SKELETON](#task-05-wireframe-the-skeleton)|
+| 06       | [Figma Design Task](#task-07-figma-design-task)       |
+| 07       | [Frontend Development](#task-08-frontend-development) |
+| 08       | [Backend Development](#task-09-backend-development)   |
 
 ## TASK 00: Linux
 
@@ -111,13 +89,13 @@ In this task, you will explore the conventions used in open-source projects, inc
 
 **Duration: 3 Days**
 
-## TASK 03: Automate the Boring Stuff!
+## TASK 03: Automate the Boring Stuff! - VERY IMPORTANT
 
 In this task, you will delve into the world of automation using Python. [Automate the Boring Stuff](https://automatetheboringstuff.com/) is an excellent resource for learning how to write scripts that can automate everyday tasks, from file handling to web scraping. By completing the exercises in this book, you’ll gain practical experience in programming while discovering how to streamline tedious processes.
 
 **Objectives:**
 
-- Complete **Chapters 12-18** from [Automate the Boring Stuff](https://automatetheboringstuff.com/), following the instructions carefully.
+- Complete **Chapters 12-18** (is possible, do till the end of the book from chapter 12, but 18 should do) from [Automate the Boring Stuff](https://automatetheboringstuff.com/), following the instructions carefully.
 - Write clean, well-documented code as you progress through the exercises.
 
 **Duration: 5 Days**
@@ -137,77 +115,13 @@ Using the [Div_It_Up Repository](https://github.com/JATAYU000/Div_It_Up), develo
 
 **Deadline: 5 days**
 
-## Development Cycle
-
-Every application or website we see has a journey behind it, commonly known as the development cycle.
-
-- The development cycle begins with creating a Software Requirements Specification (SRS) document, which outlines the project's requirements and goals. While creating a comprehensive SRS document is beyond the scope of this curriculum, you will create a much smaller version here.
-- Next, wireframes are developed using tools like Moqups or Figma to establish the basic layout and structure of the website.
-- The wireframes are then translated into detailed visual designs using Figma, focusing on the look and feel (UI and UX).
-- Following this, front-end and back-end development is carried out, with the front-end handling the user interface and the back-end managing data and server logic.
-- Finally, both are integrated to ensure seamless interaction between the user interface and the underlying systems.
-
-**The following is a list of features that should be included in the website you create, along with important points to remember while working on such a project. After reading these, you can proceed with Task 05, where you will start working on this website by creating an SRS document!**
-
-### The Website You Are Going to Create:
-
-**Letterboxd** is a social networking platform for film enthusiasts where users can discover, rate, and review films, as well as interact with a community of like-minded people. It allows users to create watchlists, log films they've watched, and write reviews. Additionally, it offers curated lists, film recommendations, and the ability to follow other users to see their activity. Visit the site: [Letterboxd](https://letterboxd.com/)
-
-### Features to Adopt for a Similar Website:
-
-1. **User Authentication:** Sign-up, sign-in, and social media login.
-
-2. **Search Functionality:** Search for tasks (or your chosen subject) by title, genre, date, etc.
-
-3. **Task/Item Addition:** Users can add new tasks or items (like new movies) with details such as descriptions, images, and categories.
-
-4. **Review and Rating System:** Users can write reviews, rate tasks, and edit or delete their reviews. Remember, other users can review the tasks/items/movies you have created, just as you can rate the ones they have created.
-
-5. **Watchlist/Task List:** Users can create and manage lists of tasks to complete or review later.
-
-6. **Social Features:** Follow other users, view their activity, and comment on their reviews.
-
-7. **Recommendations:** Suggest similar tasks based on user preferences or genre.
-
-8. **Curated Lists:** Featured lists curated by the website or users, highlighting specific themes or categories.
-
-These features will help create a rich, interactive platform similar to Letterboxd but tailored to your specific subject.
-
-While we don’t expect you to complete all these features, try your best!
-
-### Points to Ponder: 
-
-1. **Clean Code:** Code should be well-structured, readable, and maintainable, following best practices like proper naming conventions, consistent formatting, and meaningful comments.
-
-2. **Architecture and Design:** The project should follow a well-defined architectural pattern that separates concerns, promotes modularity, and supports scalability. Research the most popular approaches and follow one.
-
-3. **Functionality and Completeness:** All required features (e.g., user authentication, task addition, reviews) should be implemented and working as specified, covering both core and additional functionalities.
-
-4. **User Experience (UX) Design:** The interface should provide a smooth, intuitive, and user-friendly experience. The flow of the app should be clear and consistent for users.
-
-5. **Responsible Use of AI Tools:** While AI tools can assist with code generation, a significant portion of the project should showcase your understanding and problem-solving skills. Over-reliance on AI should be avoided, and manually written code should reflect thoughtful design and learning.
-
-**From here on, until the completion of the next five tasks (i.e., Tasks 5-9), all tasks will be related to the Letterboxd-inspired project.**
-
-## TASK 05: NOT A SRS DOC
-
-A requirements document is a simple and clear description of what a software project aims to achieve. It covers essential elements like key features, user needs, and basic design guidelines to provide a shared understanding among developers, designers, and stakeholders. This document is an essential first step to align everyone involved in the project.
-
-**Objectives:**
-
-- Create a very basic version of an SRS document for the Letterboxd project.
-- Upon completion, upload the SRS document to your repository.
-
-**Duration: 3 Days**
-
-## TASK 06: WIREFRAME THE SKELETON
+## TASK 05: WIREFRAME THE SKELETON
 
 Wireframes serve as the skeletons for designs, acting as blueprints for the design and development phases. They provide clarity and direction for the project, laying the groundwork upon which the designs are built.
 
 **Wireframe Mobile Example:**
 
 ![](assets/wireframe_example.webp)
-
 **Objectives:**
 
 - Create wireframes for both the website and mobile views of the project using [Figma](https://www.figma.com) or [Moqups](https://moqups.com/). (Note: Moqups has limitations in its free edition, so feel free to use plugins or libraries in Figma to complete the task.)
@@ -215,7 +129,7 @@ Wireframes serve as the skeletons for designs, acting as blueprints for the desi
 
 **Duration: 5 Days**
 
-## TASK 07: Figma Design Task
+## TASK 06: Figma Design Task
 
 Now that you've created the wireframes for both the website and mobile views, it's time to bring those ideas to life using Figma. This phase is where your project starts to feel real, as you add color, style, and interactions that make the design engaging and user-friendly. Begin with the website (desktop view); once you're satisfied with how it looks, adapt the design for mobile.
 
@@ -226,7 +140,7 @@ Now that you've created the wireframes for both the website and mobile views, it
 
 **Duration: 5 Days**
 
-## TASK 08: Frontend Development
+## TASK 07: Frontend Development
 
 The front end of a website is the part that users interact with directly. It involves designing and building the user interface (UI), encompassing everything from layout and design to buttons and forms. A well-crafted frontend ensures a seamless and enjoyable user experience.
 
@@ -247,7 +161,7 @@ This approach ensures that the frontend development is aligned with future backe
 
 **Deadline: 7 Days**
 
-## TASK 09: Backend Development
+## TASK 08: Backend Development
 
 The backend is the server-side codebase that handles and manages all your data behind the scenes.
 
