@@ -2,7 +2,7 @@
 
 ## Submission Guidelines
 
-1. **Set up a private GitHub repository named `dreamteam-tasks`.
+1. **Set up a private GitHub repository named `amFOSS-tasks`**.
 
 2. **Create directories named `task-##`** (where `##` corresponds to the task number) to organize your work for each specific task.
 
